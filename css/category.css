@@ -1,0 +1,53 @@
+.body{
+    background:  url(../images/10.png);
+}
+.intro{
+    
+    padding: 0 10vw;
+    height: 100%;
+    font-size: 1.5vw;
+}
+.break{
+    text-align: center;
+    color: #BDBDBD;
+}
+.box{
+    display: flex;
+    padding: 0 10vw;
+    height: 36vw;
+}
+.imgbx{
+    width: 100%;
+    
+    display: inline-block;
+}
+.imgbx img{
+    padding-left: 10%;
+    width: 22vw;
+    height: 35vw;
+}
+.con{
+    
+    
+    display: inline-block;
+    text-align: center;
+    padding-left: 2vw;
+}
+.con h2{
+    transform: translateY(8vw);
+    
+    display: inline-block;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+}
+
+.con p{
+    transform: translateY(9vw);
+    
+    display: inline-block;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1.5vw;
+}

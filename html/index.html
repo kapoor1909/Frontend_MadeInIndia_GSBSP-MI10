@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Made in India</title>
+</head>
+<body>
+    <div class="wrapper" id="home">
+        <header>
+            <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+                <img src="../images/2.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#slide">Slide</a></li>
+                    <li><a href="category.html" target="_blank">Category</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        </header>
+        <div class="about" id="about">
+            <div class="nam">
+                <img src="../images/about.png" alt="" >
+            </div>
+            <div id="about">
+            <h1>ABOUT US</h1>
+            <p> This website supports the “Made in India” initiative by the Government of India scheme launched 
+                by <b>Prime Minister Narendra Modi</b> in 2014 intended to boost the domestic manufacturing sector and
+                also augment investment into the country. It comprehensively covers the details and benefits of
+                the products that are manufactured by industries and local aritsans that hail from India. It is 
+                also meant for improving the market of basic products in the country to create a global hub for business.
+            <br>
+        Explore the the <a href="category.html">different products</a></p>
+            <img src="../images/footer.png" alt="">
+            </div>
+    </div>
+
+   
+        
+    </div>
+        <div class="container" id="slide">
+            <div class="slider">
+                <div class="slide slide1">
+                    <div class="caption">
+                        <h2>"This country has not been made by politicians, kings or goverments. <br>It has been made by saints, farmers, labourers and the people.</h2>
+                        <p>-NARENDRA MODI</p>
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="caption">
+                        <h2>"Yes, I think India's economy always has been a mixed economy, and by Western standards we are much more of a market economy than a public sector-driven economy"</h2>
+                        <p>-MANMOHAN SINGH</p>
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="caption">
+                        <h2>"My nationalism is as broad as my swadeshi, I want India's rise so that the whole world may benefit"</h2>
+                        <p>-MAHATMA GANDHI</p>
+                    </div>
+                </div>
+                <div class="slide slide4">
+                    <div class="caption">
+                        <h2>"India is a 2 trillion dollar economy today. Can we not dream of an India with a 20 trillion dollar economy"</h2>
+                        <p>-NARENDRA MODI</p>
+                    </div>
+                </div>
+                <div class="slide slide5">
+                    <div class="caption">
+                        <h2>"This country has not been made by politicians, kings or goverments. <br>It has been made by saints, farmers, labourers and the people.</h2>
+                        <p>-NARENDRA MODI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    <!------------------ FOOTER --------------------->
+    <footer>
+        <div class="footer">
+
+            <h1>Made in India</h1>
+            <p class="copyright-line">© Copyright 2020 - Made by Nandini Kapoor</p>
+            <ul class="social-list">
+                <li><a href="https://www.facebook.com/makeinindiaofficial" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></i></a></li>
+                <li><a href="https://twitter.com/makeinindia" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.makeinindia.com/home" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/makeinindia/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+            
+
+        </div>
+
+    </footer>
+
+    <script type="text/javascript">
+        //menu toggle-button
+            $(document).ready(function(){
+                $(".menu-icon").on("click",function(){
+                    $("nav ul").toggleClass("showing");
+                });
+            });
+
+
+            $(window).on("scroll",function(){
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                }
+                else{
+                    $('nav').removeClass('black');
+                }
+            })
+
+          
+    </script>
+</body>
+</html>
